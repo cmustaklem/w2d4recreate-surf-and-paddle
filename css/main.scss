@@ -1,0 +1,43 @@
+@import 'settings';
+// $brand-success: pink;
+// @import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/variables';
+// @import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px;
+    background: green;
+}
+
+#box1 {
+    border: 1px solid $color1;
+    padding: $padding;
+    width: 960px/3;
+    // background: $gradient;
+
+    &:hover {
+        background:$gradient;
+        padding: $paddingHover;
+    }
+
+    & > h1 {
+        color: orange;
+    }
+
+}
+
+#box1 > h1 {
+    color: orange;
+}
+
+#box2 {
+    border: 1px solid $color2;
+    padding: $padding;
+}
+
+#box2 > h1 {
+    color: darken($color2, 50%);
+}
