@@ -303,6 +303,8 @@ ul {
   padding-top: 26px;
   padding-bottom: 31px;
   font-size: 10px;
+  text-decoration: none;
+  color: #859AA9;
 }
 
 .marginright {
@@ -329,7 +331,61 @@ ul {
 
 }
 
+.glyphicon-comment {
+  background-color: #5E686F;
+  color: white;
+  padding: 5px;
+  float: left;
+}
 
+.glyphicon-cloud {
+  background-color: #5E686F;
+  color: white;
+  padding: 5px;
+  float: left;
+}
+
+.glyphicon-share {
+  background-color: #083452;
+  color: white;
+  padding: 5px;
+  float: left;
+}
+
+.textcolor2 {
+  background-color: #106DB3;
+  color: white;
+  padding: 2.5px;
+}
+
+.mn-sec-btn-1 {
+  padding: 3px;
+  color: white;
+}
+
+.textcolor {
+  background-color: #A3B3BF;
+  padding: 2.5px;
+  color: white;
+  margin-left: 0px;
+  float: left;
+}
+
+.glyphmargin {
+  margin-right: 0px;
+}
+
+footer {
+  width: 100%;
+}
+
+// .notextpadding {
+//   font-size: 0;
+// }
+
+.bodypadding {
+  padding: 5px;
+}
 
 // .header {
 //   width: 960px;
